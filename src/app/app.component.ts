@@ -40,7 +40,7 @@ export class AppComponent {
     // los datos ahora se asginan a la hoja
     wb.Sheets["Hoja 1"] = ws;
     // se crea la variable de salida
-    var wbout = XLSX.write(wb,{bookType:'xlsx',type:'binary',});
+    var wbout = XLSX.write(wb,{bookType:'xlsx',type:'binary'});
     
     // funcion que permite convertir de binario a octeto
     function s2ab(s) { 
